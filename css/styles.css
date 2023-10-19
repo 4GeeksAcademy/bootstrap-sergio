@@ -1,0 +1,29 @@
+.navbar, .container-fluid {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.dropdown {
+    margin-left: 8px;
+}
+.nav-link {
+    color: var(--bs-secondary-color);
+}
+.nav-pills .nav-link.active {
+    color: var(--bs-primary);
+    background-color: white;
+}
+.col-grid {
+    max-height: 350px;
+}
+img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.card {
+    margin: 0 auto;
+    max-width: 470px;
+}
+.btn-light {
+    border: 1px rgb(230, 228, 228) solid;
+}
